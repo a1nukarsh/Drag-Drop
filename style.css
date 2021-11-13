@@ -27,5 +27,6 @@
     /* background-repeat: no-repeat; */
     /* height: 500px; */
     background-size: 100%;
+    cursor: pointer;
 }
 
