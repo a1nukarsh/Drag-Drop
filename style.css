@@ -17,7 +17,8 @@
     /* padding: 1%; */
     width: 200px;
     height: 200px;
-    
+    background-image: url('./img2.jpg');
+    background-size: 100%;
 }
 .imgBox{
     background-image: url('./img.jpeg');
