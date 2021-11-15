@@ -15,7 +15,8 @@ imgBox.addEventListener("dragend", (e) => {
 }); 
 
 for(whiteBox of whiteBoxes){
-  whiteBox.addEventListener('dragover', ()=>{
+  whiteBox.addEventListener('dragover', (e)=>{
+    e.preventDefault()
     console.log("Drag Over has been triggered");
   })
   whiteBox.addEventListener('dragenter', ()=>{
