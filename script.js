@@ -3,9 +3,9 @@ console.log("D&D");
 const imgBox = document.querySelector(".imgBox");
 const whiteBoxes = document.getElementsByClassName("whiteBox");
 
-imgBox.addEventListener("dragstart", () => {
+imgBox.addEventListener("dragstart", (e) => {
   console.log("Drag start has been triggered");
-  
+  e.target.className += ' hold'
 });
 imgBox.addEventListener("dragend", () => {
   console.log("Drag end has been triggered");
