@@ -8,4 +8,4 @@ imgBox.addEventListener("dragstart", () => {
 });
 imgBox.addEventListener("dragend", () => {
   console.log("Drag end has been triggered");
-});
+}); 
